@@ -159,3 +159,39 @@ header {
         font-weight: bold;
     }
 
+
+.section-4 {
+    margin: 80px auto;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 48px 80px;
+    border-radius: 8px;
+    max-width: 1000px;
+}
+
+    .section-4 h2,
+    .section-4 p {
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
+
+    .section-4 .flex-item {
+        flex: 1 1 auto;
+    }
+
+    .section-4 button {
+        color: white;
+        background-color: #3882f6;
+        border: 2px solid white;
+        border-radius: 8px;
+        padding: 8px 32px;
+        flex: 0 0 auto;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+
